@@ -94,6 +94,7 @@ def main():
     collection = client.get_or_create_collection(
         name=COLLECTION,
         metadata={"hnsw:space": "cosine"},
+        embedding_function=None,
     )
 
     # Track already-indexed file hashes to skip unchanged files
