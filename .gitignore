@@ -444,3 +444,7 @@ $RECYCLE.BIN/
 # Credential Config Files
 product-readiness.*
 appsettings.json
+
+# AVEVA Docs Knowledge Base — local vector index (large, machine-specific)
+aveva-docs-kb/chroma_db/
+aveva-docs-kb/indexed_hashes.json

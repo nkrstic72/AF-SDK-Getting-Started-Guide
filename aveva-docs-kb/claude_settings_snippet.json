@@ -1,0 +1,17 @@
+{
+  "_comment": "Add the 'mcpServers' block below into your Claude Code settings.",
+  "_locations": {
+    "global (all projects)": "%APPDATA%\\Claude\\claude_desktop_config.json",
+    "project-only":          "AF-SDK-Getting-Started-Guide\\.claude\\settings.json"
+  },
+
+  "mcpServers": {
+    "aveva-docs": {
+      "command": "python",
+      "args": [
+        "D:\\path\\to\\AF-SDK-Getting-Started-Guide\\aveva-docs-kb\\mcp_server.py"
+      ],
+      "_note": "Replace D:\\path\\to\\ with your actual repo path, e.g. D:\\dev\\AF-SDK-Getting-Started-Guide"
+    }
+  }
+}
